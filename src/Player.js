@@ -4,9 +4,9 @@ class Player {
     this.coords = coords
 
     this.image = new Image()
-    this.image.src = "../assets/player.png"
+    this.image.src = "assets/player.png"
 
-    this.jumpSound = new Audio("../assets/boing.m4a")
+    this.jumpSound = new Audio("assets/boing.m4a")
 
     this.deltaY = 0
     this.jumping = false
