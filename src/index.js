@@ -14,7 +14,7 @@ function intersect(r1, r2) {
     r2.y + r2.height < r1.y)
 }
 
-const oofSound = new Audio("assets/oof.m4a")
+const oofSound = new Audio("endless-bieber/assets/oof.m4a")
 const player = new Player(context, {
   x: 40,
   y: canvas.height - 198,

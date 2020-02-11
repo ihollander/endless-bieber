@@ -4,7 +4,7 @@ class Obstacle {
     this.coords = coords
 
     this.image = new Image()
-    this.image.src = "assets/biebs.jpeg"
+    this.image.src = "endless-bieber/assets/biebs.jpeg"
   }
 
   draw() {
